@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Exam</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body
+            {    
+                font-family: sans-serif;   
+                background: lightgreen;
+                background-attachment: fixed;
+                text-align: center;
+            }
+            div
+            {
+                text-align: left;
+                border: 5px outset black;
+                background-color: White;
+                width: 50%;
+                padding: 10px;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 style="text-align:center">ONLINE EXAMINATION</h2><br>
+        <h3>Answer the following questions (5 marks for each correct answer)</h3><br>
+        <div align="center">
+            <br>
+            <form name="examForm" method="post" action="Exam.jsp">
+                1.Scientific Name of Computer?<br><br>
+                <input type="radio" name="qn1" value="Sillico sapiens" required>Sillico sapiens
+                <input type="radio" name="qn1" value="Homopolar generator">Homopolar generator
+                <input type="radio" name="qn1" value="Mus musculus">Mus musculus
+                <input type="radio" name="qn1" value="None">None
+                <br><br><br>
+                2.FORTTAN stands for?<br><br>
+                <input type="radio" name="qn2" value="Fire Translator" required>Fire Translator
+                <input type="radio" name="qn2" value="Formula Translation">Formula Translation
+                <input type="radio" name="qn2" value="Forward Translation">Forward Translation
+                <input type="radio" name="qn2" value="None">None
+                <br><br><br>
+                3.The common name for the crime of stealing passwords is?<br><br>
+                <input type="radio" name="qn3" value="Hacking" required>Hacking
+                <input type="radio" name="qn3" value="Spoofing">Spoofing
+                <input type="radio" name="qn3" value="Cyber Crime">Cyber Crime
+                <input type="radio" name="qn3" value="None">None
+                <br><br><br>
+                4.Who is regarded as Father of “C” programming language?<br><br>
+                <input type="radio" name="qn4" value="Carl Sassenrath" required>Carl Sassenrath
+                <input type="radio" name="qn4" value="Barbara Liskov">Barbara Liskov
+                <input type="radio" name="qn4" value="Dennis Ritchie">Dennis Ritchie
+                <input type="radio" name="qn4" value="None">None
+                <br><br><br>
+                5.Which of the following commands is given to reboot the computer?<br><br>
+                <input type="radio" name="qn5" value="Ctrl+Alt+Del" required>Ctrl+Alt+Del
+                <input type="radio" name="qn5" value="Ctrl+A">Ctrl+A
+                <input type="radio" name="qn5" value="Ctrl+C">Ctrl+C
+                <input type="radio" name="qn5" value="None">None
+                <br><br><br><br>
+                <center><input type="submit" value="Check Your Result"></center>
+            </form>
+        </div>
+    </body>
+</html>
