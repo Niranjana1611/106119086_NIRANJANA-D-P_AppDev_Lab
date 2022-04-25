@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body
+            {    
+                font-family: sans-serif;   
+                background: lightgreen;
+                background-attachment: fixed;
+            }
+            input[type="text"], input[type="password"]
+            {    
+                width: 250px;
+                height: 20px;    
+            }        
+            table
+            {    
+                border-radius: 5px;
+                border-spacing: 0 15px;
+                text-align: center;    
+                background: white;
+                font-family: sans-serif;    
+                font-size: 20;    
+                border: 3px solid black;    
+                width: 600px;    
+                margin: 20px auto;    
+            }
+            td 
+            {    
+                padding: 10px;    
+            }    
+            td:first-child 
+            {    
+                text-align: right;    
+                font-weight: bold;    
+            }    
+            td:last-child 
+            {    
+                text-align: left; 
+            }
+        </style>
+    </head>
+    <body>
+        <br>
+        <h1 style="text-align: center">ABC Institute of Technology</h1><br>
+        <h3 style="text-align: center"><i>Please Login to take Exam</i></h3>
+        <form method="get" action="Login.jsp">
+            <table style="text-align: center">
+                <tr>
+                    <td>Roll Number: </td>
+                    <td><input type="text" name="rno" required></td>
+                </tr>
+                <tr>
+                    <td>Password: </td>
+                    <td><input type="password" name="pass" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center"><input type="submit" value="Login"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
