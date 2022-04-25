@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<root>
+    <userid>001</userid>
+    <name>Aaa</name>
+    <course>C1</course>
+    <dept>D1</dept>
+    <address>City1</address>
+    <phone>1234567890</phone>
+    <email>aaa@gmail.com</email>
+    
+    <userid>002</userid>
+    <name>Bbb</name>
+    <course>C2</course>
+    <dept>D6</dept>
+    <address>City2</address>
+    <phone>5357865449</phone>
+    <email>bbb@gmail.com</email>
+    
+    <userid>003</userid>
+    <name>Ccc</name>
+    <course>C3</course>
+    <dept>D4</dept>
+    <address>City5</address>
+    <phone>2345543234</phone>
+    <email>ccc@gmail.com</email>
+    
+    <userid>004</userid>
+    <name>Ddd</name>
+    <course>C3</course>
+    <dept>D9</dept>
+    <address>City7</address>
+    <phone>2376545656</phone>
+    <email>ddd@gmail.com</email>
+    
+    <userid>005</userid>
+    <name>Eee</name>
+    <course>C2</course>
+    <dept>D2</dept>
+    <address>City2</address>
+    <phone>2358469690</phone>
+    <email>eee@gmail.com</email>
+    
+    <userid>006</userid>
+    <name>Fff</name>
+    <course>C1</course>
+    <dept>D7</dept>
+    <address>City9</address>
+    <phone>1236853468</phone>
+    <email>fff@gmail.com</email>
+    
+    <userid>007</userid>
+    <name>Ggg</name>
+    <course>C2</course>
+    <dept>D2</dept>
+    <address>City3</address>
+    <phone>2468987543</phone>
+    <email>ggg@gmail.com</email>
+    
+    <userid>008</userid>
+    <name>Hhh</name>
+    <course>C1</course>
+    <dept>D7</dept>
+    <address>City5</address>
+    <phone>2368098659</phone>
+    <email>hhh@gmail.com</email>
+    
+    <userid>009</userid>
+    <name>Iii</name>
+    <course>C3</course>
+    <dept>D1</dept>
+    <address>City3</address>
+    <phone>2467898767</phone>
+    <email>iii@gmail.com</email>
+    
+    <userid>010</userid>
+    <name>Jjj</name>
+    <course>C3</course>
+    <dept>D3</dept>
+    <address>City10</address>
+    <phone>1357765678</phone>
+    <email>jjj@gmail.com</email>
+</root>
