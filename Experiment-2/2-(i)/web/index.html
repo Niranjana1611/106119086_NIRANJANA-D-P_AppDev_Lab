@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Invoke Servlets</title>
+        <style>
+            body
+            {    
+                font-family: sans-serif;   
+                background: Cyan;
+                background-attachment: fixed;
+            }    
+            input[type="text"], input[type="email"]
+            {    
+                width: 250px;
+                height: 20px;    
+            }        
+            table
+            {    
+                border-radius: 5px;
+                border-spacing: 0 15px;
+                text-align: center;    
+                background: white;
+                font-family: sans-serif;    
+                font-size: 20;    
+                border: 3px solid black;    
+                width: 600px;    
+                margin: 20px auto;    
+            }    
+            td 
+            {    
+                padding: 10px;    
+            }    
+            td:first-child 
+            {    
+                text-align: right;    
+                font-weight: bold;    
+            }    
+            td:last-child 
+            {    
+                text-align: left; 
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center">Please enter the Details</h1>
+        <form action="Servlet_2a" method="POST">
+            <table style="text-align: center">
+                <tr>
+                    <td>Username: </td>
+                    <td><input type="text" name="uname"></td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center"><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
